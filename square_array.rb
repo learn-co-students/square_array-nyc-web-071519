@@ -1,3 +1,3 @@
 def square_array(array)
-  # your code here
+  array.map{|value| value ** 2}
 end
